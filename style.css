@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+.leftmost{
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 5%;
+    position: fixed;
+    background-color: rgb(34,34,34);;
+}
+
+.left{
+    left: 76.7px;
+    height: 100%;
+    width: 25%;
+    position: fixed;
+    background-color: rgb(68,68,68);
+}
+
+
+.right{
+    right: 0;
+    height: 100%;
+    width: 70%;
+    position: fixed;
+    background-color: rgb(34,34,34);
+}
+
+.leftmost ul li a{
+    display: block;
+    position: relative;
+    padding: 10px 10px;
+    font-size: 14px;
+    color: rgb(145,145,146);
+    
+}
+
+.leftmost ul li a .icon{
+    font-size: 30px;
+   display: inline-block;
+   padding-left: 0.2rem;
+   margin-top: 1rem;
+   color: rgb(145,145,146);
+   }
+   .leftmost ul li a .icon:hover{
+    cursor: pointer;
+    color: #0f7f9b;
+   }
+
+   .image{
+   margin-left: 5.6rem;
+   margin-top: 4rem;
+border-radius: 7rem;
+transition: transform .2s;
+   }
+
+   .image:hover{
+    transform: scale(1.3);
+   }
+
+   .name{
+    margin-left: 5.6rem;
+    margin-top: 1rem;
+    color: rgb(245,245,245);
+    font-weight: 900;
+    font-size: 35px;
+
+/* Starting animation */
+ overflow: hidden; 
+  border-right: .15em solid ; 
+  white-space: nowrap; 
+    letter-spacing: .15em  #0f7f9b;
+    width: 0;
+ animation: 
+    typing 3.5s steps(20, end) forwards,
+    blink-caret .8s step-end infinite ;
+   }
+
+   @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    30% { border-color:  #0f7f9b; }
+  }
+
+  .Design{
+    margin-left: 7.9rem;
+    font-size: 20px;
+    color: rgb(152,152,152);
+    overflow: hidden; 
+  border-right: .15em solid ; 
+  white-space: nowrap; 
+    letter-spacing: .15em  #0f7f9b;
+    width: 0;
+ animation: 
+    typing 3.5s steps(20, end) forwards,
+    blink-caret .8s step-end infinite ;
+  }
+  .socialicon{
+   padding-left: 8rem;
+   
+   font-size: 18px;
+   padding-top: 1.2rem;
+ }
+ .nav-link{
+    margin-left: 1rem;
+    color: rgb(229,229,229);
+    transition: transform .2s;
+ }
+
+ .nav-link:hover{
+    cursor: pointer;
+    color: #0f7f9b ;
+    transform: scale(1.3);
+
+ }
+
+ .btn{
+    padding-left: 6.3rem;
+    padding-top: 2rem;
+ }
+
+ .btn button{
+    width: 180px;
+    height: 50px;
+    font-size: 17px;
+    border-radius: 10rem;
+   border: 2px solid  rgb(243, 234, 234);
+   background-color: rgb(68,68,68);
+     color: rgb(229,229,229) ;
+  transition: 0.7s;
+  
+ }
+
+.btn button:hover{
+    border:2px solid #0f7f9b;
+    background-color: rgb(229,229,229) ;
+    color: #0f7f9b;
+    
+}
+
+.right{
+    padding: 19rem;
+    font-size: 30px;
+    font-weight: 1000;
+    color: rgb(243, 234, 234) ;
+}
+
+#web{
+    opacity: 0;
+    padding-left: 5rem;
+    color: rgb(150,150,150);
+    animation: fadeIn 4s ;
+}
+
+@keyframes fadeIn {
+    /* 0% { opacity: 0; }
+    100% { opacity: 1; }*/
+    from{
+        opacity:1;
+        top:0px;
+    }
+    to{
+        opacity:0;
+        top:-5px;
+    }
+    }
+  
+
+  #dev{
+   
+   opacity: 0;
+    padding-left: 2.8rem;
+    color: rgb(150,150,150);
+    animation: fadeIn 4s;
+    animation-delay: 2s;
+  }
+
+
+
+
+
+
+
+
+
+
+
+ 
+
